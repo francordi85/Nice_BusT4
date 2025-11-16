@@ -581,7 +581,7 @@ void NiceBusT4::parse_status_packet (const std::vector<uint8_t> &data) {
 			}
 			this->publish_state_if_changed();  // nous publions le statut
             break; //RUN
-
+/*
           case STA:
             ESP_LOGI(TAG,  "Sous-menu État en mouvement" );
             switch (data[11]) { // sub_run_cmd2
@@ -615,7 +615,7 @@ void NiceBusT4::parse_status_packet (const std::vector<uint8_t> &data) {
 
                 
             } // switch sub_run_cmd2
-
+*/
             update_position((data[12] << 8) + data[13]);
             break; //STA
 
