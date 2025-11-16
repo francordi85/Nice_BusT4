@@ -26,7 +26,7 @@ CoverTraits NiceBusT4::get_traits() {
 
 
 /*
-  дампы команд OVIEW
+  Listes Commandes OVIEW
 
   SBS               55 0c 00 ff 00 66 01 05 9D 01 82 01 64 E6 0c
   STOP              55 0c 00 ff 00 66 01 05 9D 01 82 02 64 E5 0c
